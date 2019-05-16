@@ -670,6 +670,12 @@
     },
     "done": true
   },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2019-05-16 12:29:36 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-05-07 14:01:09 -0700"

@@ -633,6 +633,12 @@
     },
     "done": true
   },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2019-05-16 10:07:39 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_at_least_9_gold_ingot": "2019-05-07 15:42:31 -0700"
