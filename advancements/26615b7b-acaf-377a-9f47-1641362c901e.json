@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2019-05-16 17:30:26 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2019-05-06 11:48:26 -0700"
@@ -188,6 +194,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2019-05-03 15:20:01 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_gold_ore": "2019-05-16 18:07:25 -0700"
     },
     "done": true
   },
@@ -421,7 +433,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2019-05-16 10:07:39 -0700"
+      "tick": "2019-05-16 21:48:55 -0700"
     },
     "done": false
   },
@@ -521,6 +533,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2019-05-16 13:21:04 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2019-05-10 09:41:13 -0700"
@@ -588,15 +606,25 @@
       "minecraft:vindicator": "2019-05-15 21:32:07 -0700",
       "minecraft:spider": "2019-05-07 13:39:13 -0700",
       "minecraft:creeper": "2019-05-07 15:50:28 -0700",
+      "minecraft:slime": "2019-05-16 19:26:14 -0700",
       "minecraft:witch": "2019-05-10 15:40:24 -0700",
+      "minecraft:cave_spider": "2019-05-16 16:40:00 -0700",
+      "minecraft:enderman": "2019-05-16 17:14:04 -0700",
       "minecraft:zombie": "2019-05-07 13:39:28 -0700",
-      "minecraft:drowned": "2019-05-09 12:40:26 -0700"
+      "minecraft:drowned": "2019-05-09 12:40:26 -0700",
+      "minecraft:zombie_villager": "2019-05-16 17:02:11 -0700"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2019-05-07 14:09:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2019-05-16 20:32:44 -0700"
     },
     "done": true
   },
@@ -642,6 +670,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2019-05-16 17:30:26 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_red_flower": "2019-05-15 15:20:35 -0700"
@@ -669,9 +703,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2019-05-16 13:21:04 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2019-05-03 15:29:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2019-05-16 13:21:04 -0700"
     },
     "done": true
   },
@@ -810,6 +856,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-05-13 12:22:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2019-05-16 13:21:04 -0700"
     },
     "done": true
   },
@@ -1062,6 +1114,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2019-05-16 19:26:23 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2019-05-03 15:27:17 -0700"
@@ -1220,6 +1278,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_white_dye": "2019-05-15 15:24:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-05-16 19:44:48 -0700"
     },
     "done": true
   },
@@ -1568,10 +1632,14 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2019-05-14 10:43:50 -0700",
+      "sweet_berries": "2019-05-16 15:45:43 -0700",
       "cooked_beef": "2019-05-06 11:46:29 -0700",
+      "baked_potato": "2019-05-16 15:51:28 -0700",
       "beetroot_soup": "2019-05-10 14:18:21 -0700",
       "apple": "2019-05-07 13:31:01 -0700",
+      "potato": "2019-05-16 15:40:23 -0700",
       "bread": "2019-05-07 14:15:33 -0700",
+      "beetroot": "2019-05-16 21:51:03 -0700",
       "cooked_chicken": "2019-05-03 15:26:41 -0700",
       "mushroom_stew": "2019-05-10 15:47:26 -0700",
       "cooked_salmon": "2019-05-07 13:40:11 -0700",
@@ -1648,6 +1716,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-05-03 15:28:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-05-16 13:21:04 -0700"
     },
     "done": true
   },
@@ -1885,6 +1959,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2019-05-16 20:03:17 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2019-05-10 09:41:13 -0700"
@@ -2065,9 +2145,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-05-16 19:26:45 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-05-13 12:22:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-05-16 19:44:48 -0700"
     },
     "done": true
   },
@@ -2179,6 +2271,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-05-16 13:21:04 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2019-05-06 11:53:04 -0700"
@@ -2254,6 +2352,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2019-05-06 11:44:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot": {
+    "criteria": {
+      "has_gold_ore": "2019-05-16 18:07:25 -0700"
     },
     "done": true
   },
@@ -2353,6 +2457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2019-05-16 19:26:23 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2019-05-07 15:36:25 -0700"
@@ -2389,6 +2499,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-05-16 19:26:45 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2019-05-07 13:07:59 -0700"
@@ -2404,6 +2520,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_at_least_9_coal": "2019-05-06 11:44:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2019-05-16 20:03:17 -0700"
     },
     "done": true
   },
@@ -2563,6 +2685,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2019-05-16 18:18:12 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2019-05-07 13:07:59 -0700"
@@ -2626,6 +2754,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2019-05-03 15:51:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2019-05-16 17:30:26 -0700"
     },
     "done": true
   },
